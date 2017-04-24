@@ -4,18 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson01
+namespace HomeWork1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Address a = new Address();
-            Console.WriteLine(a.Index);
-            a.Index = "privet";
-            Console.WriteLine(a.Index);
-            a.Index = "test";
-            Console.WriteLine(a.Index);
+            Rectangle r = new Rectangle(1, 2, 3);
+            Console.WriteLine(r.PerimeterCalculator());
+            Console.WriteLine(r.AreaCalculator());
             Console.ReadKey();
         }
     }
