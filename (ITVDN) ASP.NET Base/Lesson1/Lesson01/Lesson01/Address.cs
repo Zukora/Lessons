@@ -22,8 +22,20 @@ namespace Lesson01
             }
             get
             {
-                return index;
+                return index+" index";
+            }
+        }
+        public string Country
+        {
+            set
+            {
+                country = value;
+            }
+            get
+            {
+                return country +" - country";
             }
         } 
+    
     }
 }
