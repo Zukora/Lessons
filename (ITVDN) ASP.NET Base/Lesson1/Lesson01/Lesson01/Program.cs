@@ -10,6 +10,10 @@ namespace Lesson01
     {
         static void Main(string[] args)
         {
+            Address a = new Address();
+            a.Index = "privet";
+            Console.WriteLine(a.Index);
+            Console.ReadKey();
         }
     }
 }
